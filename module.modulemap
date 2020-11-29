@@ -1,0 +1,7 @@
+module OpenCV {
+
+umbrella header "OpenCV.h"
+
+export *
+
+}
