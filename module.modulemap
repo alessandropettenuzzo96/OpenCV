@@ -1,6 +1,6 @@
 module OpenCV {
 
-umbrella header "Sources/OpenCV/ObjectiveC/OpenCV.h"
+umbrella header "OpenCV-umbrella.h"
 
 export *
 
