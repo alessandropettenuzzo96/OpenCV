@@ -24,12 +24,14 @@ let package = Package(
         .target(
             name: "OpenCV",
             dependencies: [
-                "opencv2"
+                "opencv2",
+                "OpenCVLibrary"
             ],
             exclude: [
                 "opencv2.xcframework"
             ]
         ),
+        .systemLibrary(name: "OpenCVLibrary", path: "./Sources/OpenCV/ObjectiveC/"),
         .binaryTarget(
             name: "opencv2",
             path: "./Sources/OpenCV/opencv2.xcframework"
