@@ -1,4 +1,0 @@
-module OpenCV {
-header "Sources/OpenCV/ObjectiveC/OpenCV-umbrella.h"
-export *
-}
