@@ -12,7 +12,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "OpenCV",
-            targets: ["OpenCV"]),
+            targets: ["OpenCV"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -25,13 +26,11 @@ let package = Package(
             name: "OpenCV",
             dependencies: [
                 "opencv2",
-                "OpenCVLibrary"
             ],
             exclude: [
                 "opencv2.xcframework"
             ]
         ),
-        .systemLibrary(name: "OpenCVLibrary", path: "./Sources/OpenCV/ObjectiveC/"),
         .binaryTarget(
             name: "opencv2",
             path: "./Sources/OpenCV/opencv2.xcframework"
