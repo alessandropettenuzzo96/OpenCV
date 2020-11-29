@@ -32,7 +32,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "opencv2",
-            path: "./Sources/OpenCV/opencv2.xcframework.zip"
+            path: "./Sources/OpenCV/opencv2.xcframework"
         ),
     ],
     cLanguageStandard: CLanguageStandard.c11,
