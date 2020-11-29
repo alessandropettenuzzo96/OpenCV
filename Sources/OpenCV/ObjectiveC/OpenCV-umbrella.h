@@ -6,5 +6,5 @@
 //
 
 #import "OpenCV.h"
-#import "OpenCV+UIImage.h"
+#import "UIImage+OpenCV.h"
 #import "OpenCV-Bridging-Header.h"
