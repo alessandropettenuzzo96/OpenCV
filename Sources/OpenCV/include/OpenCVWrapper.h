@@ -16,7 +16,7 @@ typedef NS_ENUM(NSUInteger, CVFocusPointType) {
     CVFocusPointTypeOpenCV
 };
 
-@interface OpenCV : NSObject
+@interface OpenCVWrapper : NSObject
 
 + (NSArray<NSValue*>*)findOpticalFlowMovement:(NSArray<UIImage*>*)images focusPoint:(CGPoint)focusPoint pointType:(CVFocusPointType)pointType faceRect:(CGRect)faceRect;
 

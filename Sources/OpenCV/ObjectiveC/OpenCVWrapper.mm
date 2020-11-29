@@ -14,7 +14,7 @@
 using namespace std;
 using namespace cv;
 
-@implementation OpenCV
+@implementation OpenCVWrapper
 
 #pragma mark - Saliency on image
 
