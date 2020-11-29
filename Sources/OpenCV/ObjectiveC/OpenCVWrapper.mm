@@ -8,7 +8,7 @@
 #include <opencv2/features2d.hpp>
 #include <opencv2/video/tracking.hpp>
 
-#import "OpenCV.h"
+#import "OpenCVWrapper.h"
 #import "UIImage+OpenCV.h"
 
 using namespace std;
