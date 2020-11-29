@@ -1,6 +1,6 @@
 //
-//  CVWrapper.h
-//  Parallax
+//  OpenCV.h
+//  
 //
 //  Created by Danny on 14/11/2019.
 //  Copyright © 2019 Danny Zorin. All rights reserved.
